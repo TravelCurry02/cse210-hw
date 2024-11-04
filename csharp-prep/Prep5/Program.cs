@@ -6,12 +6,12 @@ class Program
     {
         DisplayWelcomeMessage();
 
-        string userName = PromptUserName();
-        int userNumber = PromptUserNumber();
+        string user_Name = PromptUserName();
+        int user_Number = PromptUserNumber();
 
-        int squaredNumber = squareNumber(userNumber);
+        int squared_Number = squareNumber(user_Number);
 
-        DisplayResult(userName, squaredNumber);
+        DisplayResult(user_Name, squared_Number);
     }
       static void DisplayWelcomeMessage(){
          Console.WriteLine("Welcome to the program!");
