@@ -2,15 +2,11 @@ using System;
 
 class Program
 {
-    static void Main(string[] args)
-    {
+    static void Main(string[] args){
         DisplayWelcomeMessage();
-
         string user_Name = PromptUserName();
         int user_Number = PromptUserNumber();
-
         int squared_Number = squareNumber(user_Number);
-
         DisplayResult(user_Name, squared_Number);
     }
       static void DisplayWelcomeMessage(){
@@ -20,7 +16,6 @@ class Program
       static string PromptUserName(){
         Console.Write("What is you name? ");
         string name = Console.ReadLine();
-
         return name;
       }
 
@@ -35,8 +30,7 @@ class Program
         int square = number * number;
         return square;
       }
-      static void DisplayResult(string name, int square)
-    {
+      static void DisplayResult(string name, int square){
         Console.WriteLine($"{name}, the square of your number is {square}");
     }
 }
