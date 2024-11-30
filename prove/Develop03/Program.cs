@@ -20,6 +20,7 @@ class Program
         Console.WriteLine("Press enter to hide more words or type 'quit' to exit the program");
         Console.WriteLine();
 
+        
         // main loop
         while (true){
             selectedScripture.Display();
