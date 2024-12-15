@@ -42,4 +42,3 @@ public class ChecklistGoal : Goal{
         return Points * CompletedTimes;
     }
 }
-

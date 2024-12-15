@@ -21,4 +21,3 @@ public class SimpleGoal : Goal{
         return Points;
     }
 }
-
